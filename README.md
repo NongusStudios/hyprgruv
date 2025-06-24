@@ -1,6 +1,8 @@
 # Hyprgruv
 A simple gruvbox themed hyprland config, w/ additional alacritty config.
 
+![desktop](desktop.png)
+
 # Installation
 Run the `install.sh` script and it will create symbolic links in your `~/.config` directory.
 
