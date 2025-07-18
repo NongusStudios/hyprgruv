@@ -18,6 +18,7 @@ Run the `install.sh` script and it will create symbolic links in your `~/.config
 - dunst: notification daemon
 - wofi: application menu
 - alacritty: terminal
+- [rose-pine-hyprcursor](https://github.com/ndom91/rose-pine-hyprcursor)
 
 ## Fonts
 - [Comic Mono](https://dtinth.github.io/comic-mono-font/) used as terminal font (aur: ttf-comic-mono-git)
