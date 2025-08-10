@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0;
     min-height: 0;
-    font-family: "iosevka nerd font";
+    font-family: "ComicMono";
     font-weight: 500;
     font-size: 14px;
     padding: 0;
@@ -11,6 +11,7 @@
 window#waybar {
     background: #1d2021;
     border: 2px solid #3c3836;
+    padding: 2px 8px;
 }
 
 tooltip {
@@ -19,8 +20,8 @@ tooltip {
 }
 
 #clock,
-#tray,
 #cpu,
+#temperature,
 #memory,
 #battery,
 #network,
@@ -29,18 +30,15 @@ tooltip {
     padding: 2px 8px;
 }
 
-#custom-search,
+#custom-waybar-media,
 #window,
+#tray,
 #workspaces {
     background-color: #303536;
     color: #c7ab7a;
     margin: 6px 0px 6px 4px;
     padding: 2px 4px;
     border: 2px solid #434a4c;
-}
-
-#custom-search {
-    padding-right: 8px;
 }
 
 #workspaces button {
@@ -71,6 +69,7 @@ tooltip {
 }
 
 #cpu,
+#temperature,
 #memory,
 #network,
 #pulseaudio {
