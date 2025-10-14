@@ -1,5 +1,6 @@
 
 [global]
+font = "0xProto Nerd Font"
 separator_color= frame
 origin = top-right
 
