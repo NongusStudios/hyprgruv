@@ -6,10 +6,7 @@
 
     "modules-left": [
         "hyprland/workspaces",
-        "tray"
-    ],
-
-    "modules-center": [
+        "tray",
         "hyprland/window"
     ],
 
@@ -24,7 +21,8 @@
     ],
 
     "hyprland/window": {
-        "separate-outputs": true
+        "separate-outputs": true,
+        "max-length": 128
     },
     
     "hyprland/workspaces": {
