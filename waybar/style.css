@@ -30,6 +30,7 @@ tooltip {
     padding: 2px 8px;
 }
 
+#custom-waybar-media,
 #window,
 #tray,
 #workspaces {
@@ -67,7 +68,6 @@ tooltip {
     border: 2px solid #434a4c;
 }
 
-#battery,
 #cpu,
 #temperature,
 #memory,
