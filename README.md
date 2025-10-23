@@ -18,7 +18,7 @@ Run the `install.sh` script and it will create symbolic links in your `~/.config
 - dunst: notification daemon
 - wofi: application menu
 - kitty: terminal
-- [rose-pine-hyprcursor](https://github.com/ndom91/rose-pine-hyprcursor)
+- [waypaper](https://github.com/anufrievroman/waypaper)
 
 ## Fonts
 - [0xProto Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
