@@ -4,14 +4,14 @@
     min-height: 0;
     font-family: "0xProto Nerd Font";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 11pt;
     padding: 0;
 }
 
 window#waybar {
     background: transparent;
     /*border: 2px solid #3c3836;*/
-    padding: 2px 8px;
+    padding: 2px 4px;
 }
 
 window#waybar.empty #window {
@@ -32,8 +32,8 @@ tooltip {
 #network,
 #battery,
 #pulseaudio {
-    margin: 4px 0px 2px 0px;
-    padding: 2px 4px;
+    margin-top: 4px;
+    padding: 2px 2px;
 }
 
 #window,
@@ -41,7 +41,7 @@ tooltip {
 #workspaces {
     background-color: #303536;
     color: #c7ab7a;
-    margin: 4px 0px 2px 4px;
+    margin: 4px 0px 0px 4px;
     padding: 2px 4px;
     border: 2px solid #689d6a;
     border-radius: 6px;

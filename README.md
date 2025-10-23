@@ -27,6 +27,6 @@ Run the `install.sh` script and it will create symbolic links in your `~/.config
 - [hyprsplit](https://github.com/shezdy/hyprsplit)
 
 # References
-- wallpaper from [here](https://www.reddit.com/r/wallpaper/comments/ll1gov/arch_gruvbox_wallpaper_v2_dark_light_3840x2160/)
+- Arch Linux wallpaper from [here](https://www.reddit.com/r/wallpaper/comments/ll1gov/arch_gruvbox_wallpaper_v2_dark_light_3840x2160/)
 - waybar configured from Mubin's MinimalSway [config](https://github.com/mubin6th/MinimalSway/tree/main)
 - dunst config taken from [here](https://github.com/xelser/gruvbox-dunst)
