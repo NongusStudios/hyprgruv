@@ -26,7 +26,7 @@ tooltip {
 
 #clock,
 #cpu,
-#temperature,
+#custom-cputemp,
 #memory,
 #battery,
 #network,
@@ -76,7 +76,7 @@ tooltip {
 
 #clock,
 #cpu,
-#temperature,
+#custom-cputemp,
 #memory,
 #network,
 #battery,

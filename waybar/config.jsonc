@@ -12,7 +12,7 @@
 
     "modules-right": [
         "cpu",
-        "temperature",
+        "custom/cputemp",
         "memory",
         "battery",
         "network",
@@ -43,7 +43,7 @@
     },
 
     "cpu": {
-        "format": "[cpu {usage}%",
+        "format": "[cpu {usage}% ",
         "interval": 2,
 
         "states": {
@@ -51,9 +51,16 @@
         }
     },
 
-    "temperature": {
+    /*"temperature": {
         "thermal-zone": 0,
         "format": "{temperatureC}°C]"
+    },*/
+
+    "custom/cputemp": {
+        "interval": 5,
+        "exec": "sensors k10temp-pci-00c3 | awk '/Tctl/{print $2}' | sed 's/[+°C]//g'",
+        "format": "{}°C]",
+        "tooltip": false
     },
 
     "memory": {
